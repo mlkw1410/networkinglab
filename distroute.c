@@ -8,7 +8,7 @@ struct router{
 int main()
 {
     int costmat[20][20];
-    int routers, i, j, k, count = 0;
+    int routers, i, j, k;
     printf("no.of routers: ");
     scanf("%d", &routers);
 
