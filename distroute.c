@@ -28,11 +28,11 @@ int main()
     do 
     {
         otherShorterpathexists =0;
-        for(i=0; i<routers; i++)
+        for(i=0; i<routers; i++) //router iteration
         {
-            for(j=0; j<routers; j++)
+            for(j=0; j<routers; j++) //destination router iteration
             {
-                for(k=0; k<routers; k++)
+                for(k=0; k<routers; k++) //intermediate router iteration
                 {
                      if(routingTable[i].cost[j] > costmat[i][k]+routingTable[k].cost[j])
                      {
