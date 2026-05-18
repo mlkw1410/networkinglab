@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-struct router{
+struct router
+{
     unsigned cost[20];
     unsigned from[20];
 } routingTable[10];
